@@ -1,0 +1,1 @@
+https://www.railstutorial.org/book/static_pages#sec-TDD
