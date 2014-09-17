@@ -29,7 +29,7 @@ describe "Static Pages" do
 	end
 
 	describe "About Page" do
-		
+
 		it "should have the content 'About Us'" do
 			visit '/static_pages/about'
 			expect(page).to have_content('About Us')
@@ -37,7 +37,7 @@ describe "Static Pages" do
 
 		it "should have the right title" do
 			visit '/static_pages/about'
-			expect(page).to have_title("Ruby on Rails Tutorial Sample App | About")
+			expect(page).to have_title("Ruby on Rails Tutorial Sample App | About Us")
 		end
 	end
 end
