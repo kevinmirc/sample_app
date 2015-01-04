@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$gray-lighter: #EEEEEE;
 $state-danger-text: #a94442;
 
 /* universal */
@@ -202,4 +203,26 @@ input {
 	margin-left: 0;
 }
 
+
+/* Users Index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  img {
+  	float: left;
+  	margin-right: 18px;
+  	max-height: 80px;
+  }
+  p {
+  	font-size: 14px;
+  }
+  em {
+  	font-size: 12px;
+  }
+}
 
